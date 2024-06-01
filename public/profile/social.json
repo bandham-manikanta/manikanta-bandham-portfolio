@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/bandham-manikanta"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/bandham-manikanta"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:Manikanta.Bandham@stonybrook.edu"
+        }
+    ]
+}

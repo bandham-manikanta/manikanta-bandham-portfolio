@@ -1,0 +1,37 @@
+{
+    "experiences": [
+        {
+            "title": "Data Scientist",
+            "subtitle": "Ford Motor Company",
+            "workType": "Full-time",
+            "workDescription": [
+                "Created a Java microservice leveraging multi-threading techniques to efficiently process pending payment orders, delivering a robust throughput of 3000 requests per second.",
+                "Designed and developed a REST API from inception to delivery to fetch, sort and filter brokerage and non-brokerage positions data that handles up to 2000 positions per request for multiple user accounts.",
+                "Built a Spring Boot-based backend service to retrieve patching data of 60 servers from an Oracle database, facilitating the development of a monitoring tool for patching activity. This initiative resulted in an 84-person-hour reduction during each patching cycle.",
+                "Implemented CI/CD pipelines using DevOps tools like Jenkins and uDeploy which led to more efficient software delivery cycles, improving time-to-production by 37%.",
+                "Integrated Docker-based containerization with Kubernetes to automate the deployment, scaling, and management of applications, achieving a 40% improvement in scalability and significant reduction in infrastructure costs."
+            ],
+            "dateText": "02/2021 – 12/2023"
+        },
+        {
+            "title": "Software Engineer",
+            "subtitle": "Lumen Technologies (CenturyLink)",
+            "workType": "Full-time",
+            "workDescription": [
+                "Created a database on Amazon RDS PostgreSQL engine with GTC orders data belonging to 32 trading venues.",
+                "Deployed a python script using AWS Lambda function by connecting to AWS API Gateway to retrieve application data."
+            ],
+            "dateText": "06/2018 – 02/2021"
+        },
+        {
+            "title": "Software Engineer",
+            "subtitle": "UST Global",
+            "workType": "Full-time",
+            "workDescription": [
+                "Created a database on Amazon RDS PostgreSQL engine with GTC orders data belonging to 32 trading venues.",
+                "Deployed a python script using AWS Lambda function by connecting to AWS API Gateway to retrieve application data."
+            ],
+            "dateText": "12/2015 – 06/2018"
+        }
+    ]
+}

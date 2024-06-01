@@ -1,0 +1,16 @@
+{
+    "education":[
+        {
+            "title": "Jan 2024 - Dec 2025 (Expected)",
+            "cardTitle": "Master of Science in Data Science",
+            "cardSubtitle":"Stony Brook University, NY, USA",
+            "cardDetailedText": "CGPA - 3.75/4"
+        },
+        {
+            "title": "July 2012 - May 2025",
+            "cardTitle": "B.Tech, Mechanical Engineering",
+            "cardSubtitle":"Kuppam Engineering College, Kuppam, India",
+            "cardDetailedText": "CGPA - 7.77/10"
+        }
+    ]
+}
