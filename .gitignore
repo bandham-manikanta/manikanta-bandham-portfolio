@@ -5,7 +5,10 @@
 /.pnp
 .pnp.js
 package-lock.json
+<<<<<<< HEAD
 yarn.lock
+=======
+>>>>>>> 257de97 (Initial Commit)
 
 # testing
 /coverage

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
-import { motion } from 'framer-motion'; // Import framer-motion
+import Fade from 'react-reveal';
 import { Container } from 'react-bootstrap';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
@@ -42,49 +42,29 @@ function Skills(props) {
     <>
       <Header title={header} />
       {data ? (
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="section-content-container"
-        >
-          <Container>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }} 
-            >
+        <Fade>
+          <div className="section-content-container">
+            <Container>
               {renderSkillsIntro(data.intro)}
-            </motion.div>
-            {data.skills?.map((rows) => (
-              <motion.div 
-                key={rows.title}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-              >
-                <br />
-                <h3>{rows.title}</h3>
-                {rows.items.map((item) => (
-                  <motion.div
-                    key={item.title}
-                    style={{ display: 'inline-block' }}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.6 }}
-                  >
-                    <img
-                      style={styles.iconStyle}
-                      src={item.icon}
-                      alt={item.title}
-                    />
-                    <p>{item.title}</p>
-                  </motion.div>
-                ))}
-              </motion.div>
-            ))}
-          </Container>
-        </motion.div>
+              {data.skills?.map((rows) => (
+                <div key={rows.title}>
+                  <br />
+                  <h3>{rows.title}</h3>
+                  {rows.items.map((item) => (
+                    <div key={item.title} style={{ display: 'inline-block' }}>
+                      <img
+                        style={styles.iconStyle}
+                        src={item.icon}
+                        alt={item.title}
+                      />
+                      <p>{item.title}</p>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </Container>
+          </div>
+        </Fade>
       ) : <FallbackSpinner /> }
     </>
   );

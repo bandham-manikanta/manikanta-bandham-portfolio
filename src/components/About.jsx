@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import { motion } from 'framer-motion'; // Import framer-motion
+import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -50,11 +50,15 @@ function About(props) {
         <Container>
           {data
             ? (
+<<<<<<< HEAD
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
+=======
+              <Fade>
+>>>>>>> 257de97 (Initial Commit)
                 <Row>
                   <Col style={styles.introTextContainer}>
                     {parseIntro(data.about)}
@@ -63,7 +67,11 @@ function About(props) {
                     <img src={data?.imageSource} alt="profile" />
                   </Col>
                 </Row>
+<<<<<<< HEAD
               </motion.div>
+=======
+              </Fade>
+>>>>>>> 257de97 (Initial Commit)
             )
             : <FallbackSpinner />}
         </Container>
@@ -76,4 +84,8 @@ About.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
+<<<<<<< HEAD
 export default About;
+=======
+export default About;
+>>>>>>> 257de97 (Initial Commit)
