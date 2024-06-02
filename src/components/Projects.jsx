@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
+import { motion } from 'framer-motion'; // Import framer-motion
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
@@ -31,34 +31,52 @@ const Projects = (props) => {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
+
   const numberOfItems = showMore && data ? data.length : 6;
+
   return (
     <>
       <Header title={header} />
       {data
         ? (
-          <div className="section-content-container">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="section-content-container"
+          >
             <Container style={styles.containerStyle}>
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.projects?.slice(0, numberOfItems).map((project) => (
-                  <Fade key={project.title}>
+                  <motion.div
+                    key={project.title}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                  >
                     <ProjectCard project={project} />
-                  </Fade>
+                  </motion.div>
                 ))}
               </Row>
 
               {!showMore
                 && (
-                <Button
-                  style={styles.showMoreStyle}
-                  variant={theme.bsSecondaryVariant}
-                  onClick={() => setShowMore(true)}
-                >
-                  show more
-                </Button>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.4 }}
+                  >
+                    <Button
+                      style={styles.showMoreStyle}
+                      variant={theme.bsSecondaryVariant}
+                      onClick={() => setShowMore(true)}
+                    >
+                      show more
+                    </Button>
+                  </motion.div>
                 )}
             </Container>
-          </div>
+          </motion.div>
         ) : <FallbackSpinner /> }
     </>
   );
