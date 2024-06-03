@@ -358,36 +358,37 @@ It has 2 keys, *logo* and *sections*.
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Data Scientist",
+            "subtitle": "Ford Motor Company",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "",
+                ""
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "02/2021 – 12/2023"
         },
         {
             "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "subtitle": "Lumen Technologies (CenturyLink)",
+            "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "",
+                ""
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "06/2018 – 02/2021"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Software Engineer",
+            "subtitle": "UST Global",
+            "workType": "Full-time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "",
+                ""
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "12/2015 – 06/2018"
         }
     ]
-}
+} 
 ```
 
 | key | Description |
