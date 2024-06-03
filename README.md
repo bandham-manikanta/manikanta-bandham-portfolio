@@ -135,7 +135,7 @@ It has 2 keys, *logo* and *sections*.
         },
         {
             "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
+            "href": "https://drive.google.com/file/d/10TIo4hW_I0oFthVCno8-fIjYkk0isAWw/view",
             "type": "link"
         }
     ]
