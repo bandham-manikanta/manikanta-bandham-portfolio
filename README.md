@@ -554,7 +554,7 @@ I highly recommend to use [Vercel](https://vercel.app) or [Render](https://rende
 
 ## Notable Portfolios made using this template
 
-- [Manikanta Bandham](https://manikanta-bandham-portfolio.onrender.com)
+- <a href="https://manikanta-bandham-portfolio.onrender.com" target="_blank">Manikanta Bandham</a>
 
 ## Authors
 
