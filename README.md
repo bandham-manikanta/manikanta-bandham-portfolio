@@ -17,7 +17,7 @@
 
 ## Demo
 
-To view the demo: **[click here](https://dev-portfolio-mayankagarwal09.vercel.app)**
+To view the demo: **[click here](https://manikanta-bandham-portfolio.onrender.com)**
 
 ## Why do you need a portfolio? ☝️
 
