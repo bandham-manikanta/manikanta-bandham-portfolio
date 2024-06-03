@@ -43,10 +43,10 @@ From your command line, first clone Dev Portfolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/mayankagarwal09/dev-portfolio
+$ git clone https://github.com/bandham-manikanta/manikanta-bandham-portfolio
 
 # Move into the repository
-$ cd dev-portfolio
+$ cd manikanta-bandham-portfolio
 
 # Remove the current origin repository
 $ git remote remove origin
@@ -60,6 +60,9 @@ Using NPM: Simply run the below commands.
 # Install dependencies
 $ npm install --legacy-peer-deps
 
+# Perform build
+$ npm run  build
+
 # Force audit fix
 $ npm audit fix --force
 
@@ -71,7 +74,10 @@ Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file 
 
 ```bash
 # Install dependencies
-$ yarn
+$ yarn install
+
+# Perform build
+$ yarn run  build
 
 # Start the development server
 $ yarn start
@@ -543,7 +549,7 @@ Go to `public/index.html`. Change *title* and *logo* if you want to customize it
 
 Once you finish your setup. You need to put your website online!
 
-I highly recommend to use [Vercel](https://vercel.app) because it is super easy.
+I highly recommend to use [Vercel](https://vercel.app) or [Render](https://render.com/) because these are super easy.
 
 ## Notable Portfolios made using this template
 
@@ -551,11 +557,11 @@ I highly recommend to use [Vercel](https://vercel.app) because it is super easy.
 
 ## Authors
 
-- **Mayank Agarwal** - [https://github.com/mayankagarwal09](https://github.com/mayankagarwal09)
+- **Manikanta Bandham** - [https://github.com/bandham-manikanta](https://github.com/bandham-manikanta)
 
 ## Support
 
-If you find a bug, feel free to [open an issue](https://github.com/mayankagarwal09/dev-portfolio/issues) in this repository.
+If you find a bug, feel free to [open an issue](https://github.com/bandham-manikanta/manikanta-bandham-portfolio/issues) in this repository.
 
 ## License 📄
 
