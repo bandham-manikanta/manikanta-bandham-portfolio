@@ -2,8 +2,8 @@
     "projects" : [
         {
             "image" : "images/projects/machine-learning-algorithms.jpg",
-            "title": "MuzTrade",
-            "bodyText": "An AI-driven stock market prediction tool based on the sentiment of the Spotify daily top songs and trained over the new powerful AWS DL1 Habana instance",
+            "title": "Advanced-Ensemble-Modeling-R-Package",
+            "bodyText": "This R package provides a comprehensive solution for machine learning model development, offering a range of techniques and options to enhance model performance and robustness. The package supports various models, including linear regression, logistic regression, lasso, ridge, elastic net, and random forest.",
             "links": [
                 {
                     "text": "Github",
