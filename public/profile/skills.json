@@ -10,28 +10,40 @@
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/java.jpg",
+                    "icon": "images/skills/r.jpg",
+                    "title": "R"
+                },
+                {
+                    "icon": "images/skills/java.png",
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/bigquery.jpg",
+                    "icon": "images/skills/pyspark.jpg",
+                    "title": "PySpark"
+                },
+                {
+                    "icon": "images/skills/bigquery.svg",
                     "title": "BigQuery"
                 },
                 {
                     "icon": "images/skills/Oracle.jpg",
-                    "title": "PySpark"
-                },
-                {
-                    "icon": "images/skills/Oracle.jpg",
-                    "title": "Oracle DB"
+                    "title": "SQl"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/react.png",
+                    "icon": "images/skills/ml.jpg",
+                    "title": "Machine Learning"
+                },
+                {
+                    "icon": "images/skills/flask.webp",
                     "title": "Flask"
+                },
+                {
+                    "icon": "images/skills/streamlit.png",
+                    "title": "Streamlit"
                 },
                 {
                     "icon": "images/skills/Spring.png",
@@ -47,16 +59,32 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/AWS.png",
+                    "icon": "images/skills/gcp.jpg",
                     "title": "Google Cloud"
                 },
                 {
-                    "icon": "images/skills/Datadog.png",
+                    "icon": "images/skills/dataproc.png",
                     "title": "DataProc"
                 },
                 {
+                    "icon": "images/skills/vertex.webp",
+                    "title": "Vertex AI"
+                },
+                {
                     "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/terraform.png",
                     "title": "Terraform"
+                },
+                {
+                    "icon": "images/skills/alteryx.png",
+                    "title": "Alteryx"
+                },
+                {
+                    "icon": "images/skills/qlik.png",
+                    "title": "Qlik"
                 }
             ]
     }
