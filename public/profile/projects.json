@@ -22,29 +22,6 @@
                 "Bagging",
                 "Boosting"
             ]
-        },
-        {
-            "image" : "images/projects/SuspectRecon.jpg",
-            "title": "SuspectRecon",
-            "bodyText": "AI-Driven Enhanced Suspect Sketching for Police Investigations",
-            "links": [
-                {
-                    "text": "Try",
-                    "href": "https://partyrock.aws/u/anubhavmathur/OWYjx_kRi/SuspectRecon"
-                },
-                {
-                    "text": "Devpost",
-                    "href": "https://devpost.com/software/suspectrecon"
-                },
-                {
-                    "text": "YouTube",
-                    "href": "https://youtu.be/M-WRxTai5MU"
-                }
-            ],
-            "tags" : [
-                "AWS PartyRock",
-                "Prompt Engineering"
-            ]
         }
     ]
 }
