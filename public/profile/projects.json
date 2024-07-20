@@ -1,23 +1,26 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/MuzTrade.jpg",
+            "image" : "images/projects/machine-learning-algorithms.jpg",
             "title": "MuzTrade",
             "bodyText": "An AI-driven stock market prediction tool based on the sentiment of the Spotify daily top songs and trained over the new powerful AWS DL1 Habana instance",
             "links": [
                 {
-                    "text": "Devpost",
-                    "href": "https://devpost.com/software/t-lgqf6x"
-                },
-                {
-                    "text": "YouTube",
-                    "href": "https://youtu.be/s_lcnSclNnI"
+                    "text": "Github",
+                    "href": "https://github.com/bandham-manikanta/Advanced-Ensemble-Modeling-R-Package"
                 }
             ],
             "tags" : [
-                "Python",
-                "AWS",
-                "BERT"
+                "R",
+                "Machine Learning",
+                "Linear Regression",
+                "Logistic Regression",
+                "Lasso Regression",
+                "Ridge Regression",
+                "Elastic Net Regression",
+                "Random Forest",
+                "Bagging",
+                "Boosting"
             ]
         },
         {
